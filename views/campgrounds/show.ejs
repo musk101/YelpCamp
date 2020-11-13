@@ -10,17 +10,17 @@
 <body>
     <h1><%= campground.title %></h1>
     <h2><%= campground.location %></h2>
-    <p> <a href="/campgrounds/<%=campground._id%>/edit">Edit</a>
-    </p>
-    <p>
+    <!-- <p> <a href="/campgrounds/<%=campground._id%>/edit">Edit</a>
+    </p> -->
+    <!-- <p>
     <form action="/campgrounds/<%=campground._id%>?_method=DELETE" method="POST">
-        <button>Delete</button>
-    </form>
-    </p>
+        <button>Delete</button> -->
+    <!-- </form>
+    </p> -->
     <footer>
+        <a href="/campgrounds/<%= campground._id%>/edit">edit Campgrounds</a>
         <a href="/campgrounds">All Campgrounds</a>
     </footer>
 </body>
 
 </html> 
- 15  views/home.ejs 
